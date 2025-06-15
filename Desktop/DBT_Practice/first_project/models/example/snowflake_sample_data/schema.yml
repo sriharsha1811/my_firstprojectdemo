@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_sample_data
+    database: snowflake_sample_data 
+    schema: TPCDS_SF10TCL_OLD
+    tables:
+      - name: store_sales
+       
+      
